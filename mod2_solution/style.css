@@ -21,19 +21,6 @@ div {
   border: 2px black solid;
 }
 
-#one {
-  margin-left: 4.15%;
-  margin-right: 8.33%;
-}
-
-#two {
-  margin-right: 8.33%
-}
-
-#three {
-  margin-right: 4.15%;
-}
-
 #one > h2 {
   background-color: pink;
 }
@@ -53,7 +40,6 @@ h2 {
   right: 0px;
   border-left: 2px black solid;
   border-bottom: 2px black solid;
-  width: 33%;
   text-align: center;
 }
 
@@ -65,5 +51,50 @@ p {
 @media only screen and (min-width: 992px)  {
   div {
     width: 25%;
+  }
+
+  #one {
+    margin-left: 4.15%;
+    margin-right: 8.33%;
+  }
+
+  #two {
+    margin-right: 8.33%
+  }
+
+  #three {
+    margin-right: 4.15%;
+  }
+
+  h2 {
+    width: 33%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  div {
+    width: 40%;
+  }
+
+  #one {
+    margin-left: 5%;
+    margin-right: 10%;
+  }
+
+  #two {
+    margin-right: 5%;
+  }
+
+  div > h2 {
+    width: 33%;
+  }
+
+  #three {
+    width: 90%;
+    margin: 25px 5% 0px 5%;
+  }
+
+  #three > h2 {
+    width: 15%;
   }
 }
