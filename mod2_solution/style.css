@@ -71,7 +71,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 991px) {
   div {
     width: 40%;
   }
@@ -96,5 +96,13 @@ p {
 
   #three > h2 {
     width: 15%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  div {
+    width: 90%;
+    clear: left;
+    margin: 25px 5% 0px 5%;
   }
 }
